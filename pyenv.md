@@ -34,6 +34,19 @@ Unset the local version:
 
         $ pyenv local --unset
 
+### pyenv global
+
+Sets the python version globally
+
+        $ pyenv global 3.10.4
+
+### pyenv shell
+
+Sets the python version in the shell. Overrides application versions as well as global
+
+        $ pyenv shell python3.10.4
+        $ pyenv shell --unset
+
 ## pyenv-virtualenv
 ### List existing virtualenvs
 
